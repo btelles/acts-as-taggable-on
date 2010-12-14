@@ -76,7 +76,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, [">= 3.0.3"])
-      s.add_runtime_dependency(%q<rspec>, ["= 2.0.0.beta.8"])
+      s.add_runtime_dependency(%q<rspec>, ["= 2.0.0"])
       s.add_runtime_dependency(%q<sqlite3-ruby>, [">= 0"])
       s.add_runtime_dependency(%q<mysql>, [">= 0"])
       s.add_runtime_dependency(%q<pg>, [">= 0"])
@@ -84,7 +84,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rcov>, [">= 0"])
     else
       s.add_dependency(%q<rails>, [">= 3.0.3"])
-      s.add_dependency(%q<rspec>, ["= 2.0.0.beta.8"])
+      s.add_dependency(%q<rspec>, ["= 2.0.0"])
       s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
       s.add_dependency(%q<mysql>, [">= 0"])
       s.add_dependency(%q<pg>, [">= 0"])
@@ -93,7 +93,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rails>, [">= 3.0.3"])
-    s.add_dependency(%q<rspec>, ["= 2.0.0.beta.8"])
+    s.add_dependency(%q<rspec>, ["= 2.0.0"])
     s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
     s.add_dependency(%q<mysql>, [">= 0"])
     s.add_dependency(%q<pg>, [">= 0"])
